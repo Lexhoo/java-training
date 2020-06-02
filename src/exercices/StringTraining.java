@@ -32,7 +32,8 @@ public class StringTraining {
 
     /**
      * @param value character, eg: 't'
-     * @return conversion of the character into String, eg: "t"
+     * 
+@return conversion of the character into String, eg: "t"
      */
     public static String charToString(char value) {
 	return Character.toString(value); 
@@ -92,7 +93,7 @@ public class StringTraining {
      */
     public static char lastChar(String string) {
 
-        return string.charAt(-1);
+        return string.charAt(string.length());
     }
 
     /**
